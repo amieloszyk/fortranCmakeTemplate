@@ -7,3 +7,5 @@ set(SOURCE
     )
 
 add_executable(demoProgram ${SOURCE})
+
+target_link_libraries(demoProgram PRIVATE demoLib)
